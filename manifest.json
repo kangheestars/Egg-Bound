@@ -2,6 +2,7 @@
   "name": "Egg Bound",
   "short_name": "Egg Bound",
   "description": "알을 부화시키고 귀여운 생명체를 모으는 방치형 웹게임",
+  "version": "v115",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

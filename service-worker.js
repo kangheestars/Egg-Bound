@@ -1,6 +1,6 @@
 // Egg Bound upload-ready service worker
-// Update CACHE_NAME whenever you upload a new version and want browsers to refresh cached files.
-const CACHE_NAME = 'egg-bound-v114-upload-ready-1';
+// Cache version bumped for v115.
+const CACHE_NAME = 'egg-bound-v115-upload-ready-1';
 const APP_SHELL = [
   './',
   './index.html',
