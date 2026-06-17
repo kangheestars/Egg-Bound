@@ -1,12 +1,13 @@
 // Egg Bound upload-ready service worker
-// Cache version bumped for v115.
-const CACHE_NAME = 'egg-bound-v115-upload-ready-1';
+// Cache version bumped for v116 icon fix.
+const CACHE_NAME = 'egg-bound-v116-iconfix-upload-ready-1';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.json',
   './icon-192.png',
-  './icon-512.png'
+  './icon-512.png',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', event => {

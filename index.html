@@ -636,11 +636,11 @@ summary:focus,summary:focus-visible{
     <div>
       <p class="eyebrow">UPDATE NEWS</p>
       <h2>업데이트 뉴스</h2>
-      <span class="version">v0.90 Render Patch</span>
+      <span class="version">v0.91 Icon Fix</span>
     </div>
   </div>
   <div class="news-list">
-    <div class="news-item"><strong>렌더링 최적화 + 새 소식 배지</strong><span>전체 화면을 매번 다시 그리지 않고 현재 탭 위주로 갱신하게 수정했다. 새 업데이트를 아직 안 봤으면 업데이트 뉴스 버튼에 빨간 동그라미가 뜬다.</span></div>
+    <div class="news-item"><strong>홈화면 아이콘 개선</strong><span>갤럭시 홈화면에서 아이콘이 작게 보이던 문제를 줄이기 위해 투명 여백 없는 전용 아이콘으로 교체했다.</span></div>
   </div>
   <button class="primary" data-action="news-close">확인</button>
 </dialog>
@@ -780,7 +780,7 @@ function achievementEmblem(a,small=false){const sizeClass=small?' small':'';cons
 
 
 let state=defaultState();let hatching=false;let lastTick=Date.now();let incomeTableOpen=false;let selectedCreatureId="";let ranchSortMode="income";let codexPage=0;const CODEX_PAGE_SIZE=6;
-const UPDATE_NEWS_VERSION="v0.90-render-patch";
+const UPDATE_NEWS_VERSION="v0.91-icon-fix";
 const $=id=>document.getElementById(id);
 
 /* v115: current-tab rendering + unread update-news badge; tap particles remain removed */
