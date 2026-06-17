@@ -1,6 +1,6 @@
 // Egg Bound upload-ready service worker
-// Cache version bumped for v116 icon fix.
-const CACHE_NAME = 'egg-bound-v116-iconfix-upload-ready-1';
+// Cache version bumped for v119 game guide patch.
+const CACHE_NAME = 'egg-bound-v119-guide-upload-ready-1';
 const APP_SHELL = [
   './',
   './index.html',
